@@ -20,9 +20,9 @@
 
 int main(int argc, char *argv[]) {
 
-	char hex[50]; // degeğerleri hexadecimal'e dönüşrürülürken kullanılacak dizi.
+	char hex[50]; // değerleri hexadecimal'e dönüştürürken kullanılacak dizi
 
-	int N = atoi(argv[1]); // char olarak gelen main parametresini (konsoldan gelen) integer' a dönültürür ve dizi boyutu yapar.
+	int N = atoi(argv[1]); // char olarak gelen main parametresini(konsoldan gelen) integer'a dönüştürür ve dizi boyutu yapar
 
 	int i; // döngü sayacı
 

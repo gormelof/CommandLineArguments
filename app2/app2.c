@@ -51,7 +51,7 @@ int main(int argc, char *argv[]) {
 		}
 		printf("Carpim = %d\n", carpim); // çarpım sonucu ekrana basılıyor
 	} else {
-		printf("Gecersiz islem!\n"); // seçenek belirlenemedi o zaman işlemde yok gardaş :)
+		printf("Gecersiz islem!\n"); // seçenek belirlenemedi o zaman işlemde yok canısı :)
 	}
 
 	return 0;
