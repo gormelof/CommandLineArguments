@@ -41,12 +41,12 @@ int main(int argc, char *argv[]) {
 	if(argc == 1) { // tek parametre program adıdır, bu bizim işimize yaramaz yanlış kullanım
 		printf("Gecersiz giris. Dogru kullanım orenegi: \"./program -c 1 2 3 4\" \n");
 	} else if(t_flag == 1 && c_flag == 0) { // -t'nin aktif olduğu kısım
-		for(int i = 2; i < argc; i++) {
+		for(i = 2; i < argc; i++) {
 			toplam += atoi(argv[i]); // parametreler atoi() fonksiyonu ile int dönüşümü yapılarak işleme sokuluyor
 		}
 		printf("Toplam = %d\n", toplam); // toplam sonucu ekrana basılıyor
 	} else if(t_flag == 0 && c_flag == 1) { // -c'nin aktif olduğu kısım
-		for(int i = 2; i < argc; i++) {
+		for(i = 2; i < argc; i++) {
 			carpim *= atoi(argv[i]); // parametreler atoi() fonksiyonu ile int dönüşümü yapılarak işleme sokuluyor
 		}
 		printf("Carpim = %d\n", carpim); // çarpım sonucu ekrana basılıyor

@@ -32,7 +32,7 @@ int main(int argc, char *argv[]) {
 	srand(time(NULL)); // random sayı üretmek için kullandığımız dizi
 
 	// dizi elemanlarını random atayıp ekrana gerekli formatlarda bastığımız döngü
-	for(int i = 0; i < N; i++) {
+	for(i = 0; i < N; i++) {
 		dizi[i] = rand(); // diziye random değerler atınıyor
 
 		printf("Elemanin degeri             -> dizi[%d]  = %lu\n", i, dizi[i]);
@@ -44,7 +44,7 @@ int main(int argc, char *argv[]) {
 	printf("\n--------------------------------------------------\n\n");
 
 	// type casting işlemi yaptığımız ve yeni değerlerin basıldığı döngü
-	for(int i = 0; i < N; i++) {
+	for(i = 0; i < N; i++) {
 		yeni_dizi[i] = (unsigned char) dizi[i]; // type casting
 
 		printf("Elemanin degeri             -> yeni_dizi[%d]  = %u\n", i, yeni_dizi[i]);
