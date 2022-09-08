@@ -1,6 +1,3 @@
 # CommandLineArguments
 
-Sistem Programlama ödevi için geliştirilen çözümleri içerir.
-Sorularda genel olarak komut satırı argümanlarının kullanımı istenmektedir.
-Döküman olarak Kaan Aslan hocanın yazdığı makaleden faydalanılmıştır (http://www.kaanaslan.com/resource/article/display_article.php?id=86).
-Uygulamalar gcc derleyicisi ile test edilmiştir.
+This repository includes solutions that are for the System Programming homework.
